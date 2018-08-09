@@ -4,7 +4,5 @@ var api=require('express').Router(),
 ;
 
 api.get('/',insController.obtener);
-
 api.post('/',insController.insert);
-
 module.exports=api;
