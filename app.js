@@ -9,7 +9,8 @@ var express=require('express')
 
 app.use(cors());
 
-mongo.connect('mongodb://PaulPinelo:PaulPinelo@cluster0-shard-00-00-zbs3g.mongodb.net:27017,cluster0-shard-00-01-zbs3g.mongodb.net:27017,cluster0-shard-00-02-zbs3g.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin')
+// mongo.connect('mongodb://PaulPinelo:PaulPinelo@cluster0-shard-00-00-zbs3g.mongodb.net:27017,cluster0-shard-00-01-zbs3g.mongodb.net:27017,cluster0-shard-00-02-zbs3g.mongodb.net:27017/INFOGAMER?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin')
+    mongo.connect('mongodb://localhost/InfogamerLocal')
     .then(()=>{
         console.log("Conectado a la BD...")
 

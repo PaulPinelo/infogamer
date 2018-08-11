@@ -16,7 +16,7 @@
     "mime-types": "^2.1.19",
     "mocha": "^2.4.5",
     "moment": "^2.20.1",
-    "mongoose": "^5.0.7",
+    "mongoose": "^5.2.7",
     "morgan": "^1.7.0",
     "object-assign": "4.1.0",
     "superagent": "^3.8.3",
